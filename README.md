@@ -4,12 +4,12 @@ Simple scripting programming language for unity 🍄
 # Code examples
 
 Basic
-```msh
+```kotlin
 import msh.unity
 import msh.io
 
 // creating some script
-class SomeScript {
+class SomeClass {
   fun someFunction() {
     // full c# classes compability
     gameObject.transform.position = new Vector3(0, 0, 1)
@@ -19,7 +19,7 @@ class SomeScript {
 // on start
 unity.onStart(fun {
   io.debug('unity start handle')
-  s = new SomeScript()
+  s := new SomeClass()
   s.someFunction()
 })
 
