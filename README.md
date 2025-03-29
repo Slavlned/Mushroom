@@ -28,3 +28,18 @@ unity.onUpdate(fun {
   io.debug('unity update handle')
 })
 ```
+
+Unity Coroutines Support
+```msh
+coroutine := unity.coroutineBuilder()
+    .do(fun {
+      io.debug('some code here')
+    })
+    .wait(3.5)
+    .do(fun {
+      io.debug('some wait here')
+    })
+    .build()
+
+coroutine()
+```
