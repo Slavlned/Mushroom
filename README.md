@@ -30,7 +30,7 @@ unity.onUpdate(fun {
 ```
 
 Unity Coroutines Support
-```msh
+```kotlin
 coroutine := unity.coroutineBuilder()
     .do(fun {
       io.debug('some code here')
