@@ -41,5 +41,5 @@ coroutine := unity.coroutineBuilder()
     })
     .build()
 
-coroutine()
+unity.coro(coroutine())
 ```
