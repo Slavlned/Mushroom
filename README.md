@@ -28,6 +28,3 @@ unity.onUpdate(fun {
   io.debug('unity update handle')
 })
 ```
-
-Unity integration
-```msh
