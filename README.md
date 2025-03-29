@@ -9,7 +9,7 @@ import msh.unity
 import msh.io
 
 // creating some script
-class SomeClass {
+type SomeClass {
   fun someFunction() {
     // full c# classes compability
     gameObject.transform.position = new Vector3(0, 0, 1)
