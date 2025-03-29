@@ -4,7 +4,7 @@ Simple scripting programming language for unity 🍄
 # Code examples
 
 Basic
-```OCaml
+```Kotlin
 import msh.unity
 import msh.io
 
@@ -12,14 +12,14 @@ import msh.io
 class SomeClass {
   fun someFunction() {
     // full c# classes compability
-    gameObject.transform.position = new Vector3(0, 0, 1)
+    gameObject.transform.position = Vector3(0, 0, 1)
   }
 }
 
 // on start
 unity.onStart(fun {
   io.debug('unity start handle')
-  s := new SomeClass()
+  s := SomeClass()
   s.someFunction()
 })
 
