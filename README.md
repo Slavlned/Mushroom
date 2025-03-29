@@ -4,7 +4,7 @@ Simple scripting programming language for unity 🍄
 # Code examples
 
 Basic
-```kotlin
+```OCaml
 import msh.unity
 import msh.io
 
